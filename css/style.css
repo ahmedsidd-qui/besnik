@@ -1,0 +1,159 @@
+*{
+  margin: 8px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.website-name {
+}
+.nav-menu ul li {
+  display: inline;
+}
+
+/* navbar end */
+.right-content-page-one{
+  background-image: url(/assets/img\ 1.jpg);
+  height: 100vh;
+  width: 100vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content-page-one{
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E8E9ED;
+}
+.left-content-page-one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  padding: 0 50px;
+
+}
+.left-content-page-one p{
+  margin-top: 10px;
+  width: 450px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.left-content-page-one h1{
+  font-size: 70px;
+  line-height: 85px;
+  width: 400px;
+}
+.left-content-page-one span{
+  font-size: 10px;
+  margin-bottom: 16px;
+}
+.left-content-page-one button{
+  margin-top: 10px;
+  padding: 13px 30px;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 5px 11px 30px 16px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+.left-content-page-one button:hover{
+  background: transparent;
+  color: #000;
+}
+
+
+
+.top-content-page-two{
+  text-align: center;
+  padding: 80px;
+}
+.bottom-content-page-two{
+  display: flex;
+  text-align: center;
+}
+.bottom-content-page-two img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.three-four{
+  display: flex;
+  padding-top: 40px;
+}
+.three-four img{
+  width: 50vw;
+  height: 100vh;
+}
+.image-content{
+  padding: 60px;
+  text-align: justify;
+  margin-left: 50px;
+}
+.image-content h1{
+  font-size: 50px;
+  padding-bottom: 40px;
+}
+.image-content p{
+  padding-bottom: 40px;
+}
+.image-content button{
+  background-color: #fff;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  width: 190px;
+}
+
+.page-five{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.page-five form button{
+  background-color: #000;
+  color: #fff;
+  padding: 8px 30px;
+  border-radius: 8px;
+  border: #E8E9ED;
+  cursor: pointer;
+}
+.page-five form input{
+  padding: 8px 30px;
+  background-color: rgb(240, 239, 239);
+  border:#E8E9ED;
+  border-radius: 8px;
+}
+.page-five form{
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+hr{
+  color: #000;
+}
+
+.footer-one{
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+}
+.footers{
+  width: 200px;
+  text-align: justify;
+}
+footer{
+  background-color: #e8e8e8;
+}
+.footer-two{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
